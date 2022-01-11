@@ -2,6 +2,20 @@
 <!-- Homepage -->
 <main class="home">
   <h2>Homepage content</h2>
+
+  @@include('parts/block.html', {
+  title: 'title1',
+  description: 'Lorem Ipsum Delino'
+  })
+  @@include('parts/block.html', {
+  title: 'title2',
+  description: 'Lorem Ipsum Delino'
+  })
+  @@include('parts/block.html', {
+  title: 'title3',
+  description: 'Lorem Ipsum Delino'
+  })
 </main>
+
 
 @@include('parts/footer.html')
